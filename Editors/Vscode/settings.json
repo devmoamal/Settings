@@ -1,0 +1,20 @@
+// Note : this vs-code settings is for deno
+{
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": false,
+    "deno.config": "./deno.json",
+    "deno.enablePaths": ["./"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+}
