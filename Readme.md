@@ -9,3 +9,7 @@
 ### Javascript Framerwork :
 
 - **Deno** [Click Here](/Javascript/Deno/)
+
+### Prettier
+
+- **Prettierrc** [Click Here](/Javascript/.prettierrc)

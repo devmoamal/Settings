@@ -1,4 +1,3 @@
-// Note : this vs-code settings is for deno
 {
     "deno.enable": true,
     "deno.lint": true,
@@ -11,10 +10,10 @@
         "source.fixAll": "explicit"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.defaultFormatter": "denoland.vscode-deno"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.defaultFormatter": "denoland.vscode-deno"
     },
-    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative"
 }
