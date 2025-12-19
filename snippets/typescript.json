@@ -1,0 +1,21 @@
+{
+  "React Functional Component with cn": {
+    "prefix": "rfcx",
+    "body": [
+      "import { cn } from \"@/lib/utils\";",
+      "",
+      "type ${TM_FILENAME_BASE}Props = {",
+      "  className?: string;",
+      "};",
+      "",
+      "function ${TM_FILENAME_BASE}({ className }: ${TM_FILENAME_BASE}Props) {",
+      "  return (",
+      "    <div className={cn(\"\", className)}>${TM_FILENAME_BASE}</div>",
+      "  );",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "React functional component with cn utility and className prop"
+  }
+}
