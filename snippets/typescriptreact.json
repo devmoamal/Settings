@@ -30,7 +30,7 @@
     "  reset: () => void;",
     "};",
     "",
-    "const use${TM_FILENAME_BASE} = ",
+    "const use${TM_FILENAME_BASE} =",
     "   create<${TM_FILENAME_BASE}State>((set) => ({",
     "     count: 0,",
     "     increment: () => set((state) => ({ count: state.count + 1 })),",
