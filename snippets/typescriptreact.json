@@ -17,5 +17,29 @@
       "export default ${TM_FILENAME_BASE};"
     ],
     "description": "React functional component with cn utility and className prop"
-  }
+  },
+  "Zustand Counter Store (function)": {
+  "prefix": "zustandc",
+  "body": [
+    "import { create } from 'zustand';",
+    "",
+    "type ${TM_FILENAME_BASE}State = {",
+    "  count: number;",
+    "  increment: () => void;",
+    "  decrement: () => void;",
+    "  reset: () => void;",
+    "};",
+    "",
+    "const use${TM_FILENAME_BASE} = ",
+    "   create<${TM_FILENAME_BASE}State>((set) => ({",
+    "     count: 0,",
+    "     increment: () => set((state) => ({ count: state.count + 1 })),",
+    "     decrement: () => set((state) => ({ count: state.count - 1 })),",
+    "     reset: () => set({ count: 0 }),",
+    "   }));",
+    "",
+    "export default use${TM_FILENAME_BASE}"
+  ],
+  "description": "Zustand counter store using a function instead of const"
+}
 }
