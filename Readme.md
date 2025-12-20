@@ -12,3 +12,7 @@
 ### Prettier
 
 - **Prettierrc** [Click Here](/Javascript/.prettierrc)
+
+### Snippets 
+
+- **React Typescript** [Click Here](/Snippets/typescriptreact.json)
